@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.box {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6)),
+    url("https://t3.ftcdn.net/jpg/05/13/59/72/360_F_513597277_YYqrogAmgRR9ohwTUnOM784zS9eYUcSk.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+.todo {
+  width: 500px;
+  height: 40px;
+  padding-left: 10px;
+  font-size: 20px;
+}
+
+.btn {
+  padding: 11px 15px;
+  border: none;
+  background-color: #2f9e44;
+  color: white;
+  margin-left: 20px;
+  border-radius: 5px;
+}
+
+.items {
+  border: 1px solid black;
+  padding: 8px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 17px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.btnc {
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  background-color: #1971c2;
+  margin-left: 20px;
+}
+.btnd {
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  background-color: #e03131;
+  margin-left: 20px;
+}
+
+.p {
+  font-weight: 700;
+}
+
+button {
+  cursor: pointer;
+}
+.app {
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+/* /////////////////////////////////////////////////////////////////////////////////////// */
+/* Style for table */
